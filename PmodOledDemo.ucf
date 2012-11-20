@@ -1,0 +1,25 @@
+## 
+##  This is an updated UCF file from the original version by Digilink. 
+##  The CS signal has been removed and all the other signals are mapped to 
+##  proper pin on the Zynq FPGA. 
+##  For the reset, the middle-push button is used.
+##  Modified by Farhad Abdolian (fabdolian@seemaconsulting.com) Nov. 5, 2012
+##
+
+Net "CLK" LOC=Y9 | IOSTANDARD=LVCMOS33;
+Net "CLK" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+#WE do not need the CS pin on the Zynq board
+# Net "CS" LOC = C14 | IOSTANDARD = LVCMOS33; 
+
+Net "SDIN" LOC = AA12 | IOSTANDARD = LVCMOS33; 
+Net "SCLK" LOC = AB12 | IOSTANDARD = LVCMOS33;
+Net "DC" LOC = U10 | IOSTANDARD = LVCMOS33; 
+Net "RES" LOC = U9 | IOSTANDARD = LVCMOS33; 
+Net "VBAT" LOC = U11 | IOSTANDARD = LVCMOS33; 
+Net "VDD" LOC = U12 | IOSTANDARD = LVCMOS33;
+
+#We use the center push button as the reset for this project
+Net "RST" LOC = P16 | IOSTANDARD = LVCMOS33;
+

@@ -1,0 +1,27 @@
+# Output products list for <charLib>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_v6_2_readme.txt
+charLib.asy
+charLib.gise
+charLib.mif
+charLib.ngc
+charLib.sym
+charLib.v
+charLib.veo
+charLib.xco
+charLib.xise
+charLib_flist.txt
+charLib_ste\example_design\bmg_wrapper.vhd
+charLib_ste\example_design\charLib_top.ucf
+charLib_ste\example_design\charLib_top.vhd
+charLib_ste\example_design\charLib_top.xdc
+charLib_ste\implement\implement.bat
+charLib_ste\implement\implement.sh
+charLib_ste\implement\planAhead_rdn.bat
+charLib_ste\implement\planAhead_rdn.sh
+charLib_ste\implement\planAhead_rdn.tcl
+charLib_ste\implement\xst.prj
+charLib_ste\implement\xst.scr
+charLib_xmdf.tcl
+summary.log
